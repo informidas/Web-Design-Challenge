@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(235, 235, 235);
+}
+.grey-txt {
+  color: gray;
+  font-size: x-large;
+}
+#logo {
+  padding-left: 50px;
+  display: block;
+  background-color: rgb(31, 184, 176);
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  height: 100%;
+  width: 200px;
+  color: white;
+  font-size: 30px;
+  margin-left: 75px;
+}
+
+#main-nav {
+  height: 80px;
+  background-color: white;
+  margin-left: 0;
+}
+
+#main-nav ul {
+  position: fixed;
+  top: 0;
+  right: 60px;
+  width: auto;
+}
+
+#main-nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 40px 0 0;
+  font-size: x-large;
+}
+
+.viz-boxes {
+  background-color: white;
+  margin: 30px auto 0 50px;
+  padding: 5px 0 5px 20px;
+}
+
+.alt-container {
+  margin: 150px auto 130px auto;
+  border: 1px;
+  border-color: rgb(235, 235, 235);
+}
+
+#primary-col {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+#secondary-col {
+  width: 21%;
+  padding-left: 25px;
+  padding-right: 35px;
+  padding-top: 50px;
+  margin-right: auto;
+}
+
+.row {
+  margin-top: 35px;
+  padding-top: 0;
+}
+
+.grid-col-heading {
+  font-size: 40px;
+  color: rgb(31, 184, 176);
+  font-weight: bold;
+}
+.img-float {
+  float: left;
+  padding: 0 5px 0 0;
+}
+
+.img-sm {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  padding-right: 5px;
+  width: 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgb(73, 72, 72);
+  color: white;
+  border-top-style: solid;
+  border-top-color: rgb(44, 206, 152);
+  border-top-width: 5px;
+  padding-top: 20px;
+  text-align: center;
+}
