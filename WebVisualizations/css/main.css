@@ -45,8 +45,15 @@ body {
   margin-left: 50px;
   margin-right: 10px;
   padding: 0;
+  background-color: white;
 }
 
+.tbl-container {
+  background-color: white;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .col-summary {
   width: 60%;
   background-color: white;
@@ -113,8 +120,10 @@ footer {
 
 .title-txt {
   color: rgb(31, 184, 176);
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
+  margin-bottom: 30px;
+  padding: 60px 0 0 10px;
 }
 
 .subtitle-txt {
@@ -128,3 +137,12 @@ footer {
   width: 400px;
   display: inline-block;
   float: none;
+}
+.add-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.clr {
+  clear: right;
+}

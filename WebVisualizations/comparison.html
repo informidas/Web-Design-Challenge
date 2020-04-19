@@ -17,7 +17,7 @@
     />
     <link rel="stylesheet" href="./css/main.css" />
 
-    <title>Lattitude Visualizations</title>
+    <title>Comparisons</title>
   </head>
 
   <body>
@@ -39,52 +39,67 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Temp By City</a>
-            <a class="dropdown-item" href="#">Humidity by City</a>
+            <a class="dropdown-item" href="./max-temp.html">Temp By City</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Windspeed By City</a>
+            <a class="dropdown-item" href="./max-humidity.html"
+              >Humidity by City</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./max-windiness.html"
+              >Windspeed By City</a
+            >
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Comparison</a>
+          <a class="nav-link" href="./comparison.html">Comparison</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Data</a>
+          <a class="nav-link" href="./data.html">Data</a>
         </li>
       </ul>
     </div>
 
     <div class="alt-container">
       <div class="row">
-        <div class="col-md-12 col-viz">
+        <div class="col-md-12 add-padding">
           <h1 class="title-txt">Comparison: Latitude vs. X</h1>
           <hr />
+          <br />
         </div>
       </div>
+      <div class="add-padding">Click any plot to get an in-depth analysis.</div>
+      <div class="row">
+        <a href="./max-temp.html">
+          <img
+            src="./img/LatitudevsTemperature.png"
+            alt="Latitude vs. Temperature"
+            class="img-lg"
+        /></a>
+        <a href="./max-windiness.html"
+          ><img
+            src="./img/WindinessAcrossCities.png"
+            alt="Latitude vs.
+        Windiness"
+            class="img-lg"
+        /></a>
+      </div>
 
       <div class="row">
-        <img
-          src="./img/LatitudevsTemperature.png"
-          alt="Latitude vs. Temperature"
-          class="img-lg"
-        />
-        <img
-          src="./img/CloudinessAcrossCities.png"
-          alt="Latitude vs. Cloudiness"
-          class="img-lg"
-        />
-      </div>
-      <div class="row">
-        <img
-          src="./img/HumidityAcrossCities.png"
-          alt="Latitude vs. Humidity"
-          class="img-lg"
-        />
-        /> <img src="./img/WindinessAcrossCities.png" alt="Latitude vs.
-        Windiness" class="img-lg"
+        <a href="./max-humidity.html"
+          ><img
+            src="./img/HumidityAcrossCities.png"
+            alt="Latitude vs. Humidity"
+            class="img-lg"
+        /></a>
+        <a href="./max-cloudiness.html"
+          ><img
+            src="./img/CloudinessAcrossCities.png"
+            alt="Latitude vs.
+            Cloudiness"
+            class="img-lg"
+        /></a>
       </div>
     </div>
-
     <footer>
       &copy; Copyright Coding Bootcamp 2020
     </footer>
