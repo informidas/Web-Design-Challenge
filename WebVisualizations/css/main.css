@@ -3,43 +3,36 @@ body {
   height: 100%;
 }
 
-#main-nav {
-  height: 80px;
-  background-color: white;
-  margin-left: 0;
+nav a {
+  padding: 15px 40px 15px 40px;
+  font-size: x-large;
 }
 
-#main-nav ul li a {
-  display: inline-block;
-  color: white;
+#collapsibleNavbar ul {
+  width: 95%;
+  padding-left: 10px;
+}
+
+#collapsibleNavbar ul li a {
   text-align: center;
-  padding: 0 16px;
   text-decoration: none;
   font-size: x-large;
   color: gray;
+  padding: 16px 40px 16px 0px;
 }
 
 #logo {
-  padding-left: 50px;
-  display: block;
   background-color: rgb(31, 184, 176);
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding: 15px 20px 15px 20px;
   margin-top: 0px;
   height: 100%;
-  width: 200px;
   color: white;
   font-size: 30px;
-  margin-left: 75px;
-}
-
-.nav-position {
-  position: relative;
-  top: -60px;
-  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .alt-container {
+  height: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 50px;
@@ -49,6 +42,7 @@ body {
 }
 
 .tbl-container {
+  height: 100%;
   background-color: white;
   margin-top: 30px;
   padding-left: 30px;
@@ -56,7 +50,6 @@ body {
 }
 .col-summary {
   width: 60%;
-  background-color: white;
   margin: 50px 0 50px 0;
   padding: 30px 10px 30px 30px;
 }
@@ -145,4 +138,95 @@ footer {
 
 .clr {
   clear: right;
+}
+
+@media (max-width: 1376px) {
+  .alt-container {
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 0;
+    background-color: white;
+  }
+  .col-summary {
+    width: 100%;
+    margin: 50px 0 50px 0;
+    padding: 30px 10px 30px 30px;
+  }
+  .col-viz {
+    width: 100%;
+    background-color: white;
+    margin: 50px auto 50px 30px;
+    padding: 30px 10px 30px 30px;
+  }
+}
+
+@media (max-width: 913px) {
+  .col-summary {
+    width: 100%;
+    margin: 50px 0 50px 0;
+    padding: 30px 10px 30px 30px;
+  }
+  .col-viz {
+    width: 70%;
+    background-color: white;
+    margin: 50px auto 50px 30px;
+    padding: 30px 10px 30px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #collapsibleNavbar ul {
+    width: 95%;
+    padding-left: 10px;
+    display: list-item;
+  }
+
+  #collapsibleNavbar ul li a {
+    text-align: left;
+    text-decoration: none;
+    font-size: x-large;
+    color: gray;
+    padding: 16px 40px 16px 0px;
+  }
+  .dropdown-item {
+    margin-left: 30px;
+  }
+  .alt-container {
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+  }
+  .img-sm {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 5px;
+    width: 100px;
+  }
+
+  img {
+    padding: 0;
+    margin: 10px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  img {
+    padding: 0;
+    margin: 10px;
+    width: 250px;
+  }
+  .img-lg {
+    padding: 0;
+    margin: 10px;
+    width: 250px;
+  }
 }

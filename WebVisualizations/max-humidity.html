@@ -21,44 +21,63 @@
   </head>
 
   <body>
-    <div id="main-nav">
-      <span id="logo">
-        Lattitude
-      </span>
-      <ul class="nav justify-content-end nav-position">
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle grey-txt"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Plots
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./max-temp.html">Temp By City</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="./max-humidity.html">Humidity by City</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="./max-windiness.html">Windspeed By City</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./data.html">Data</a>
-        </li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-md bg-white navbar-light">
+      <a class="navbar-brand" href="index.html"
+        ><span id="logo">Lattitude</span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav justify-content-end">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle grey-txt"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./max-temp.html">Temp By City</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="./max-humidity.html"
+                >Humidity by City</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="./max-windiness.html"
+                >Windspeed By City</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="./max-cloudiness.html"
+                >Cloudiness By City</a
+              >
+            </div>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a class="nav-link" href="./comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a class="nav-link" href="./data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
 
     <div class="alt-container">
       <div class="row">
         <div class="col-summary">
-          <h1 class="txt-summary">Summary: Latitude vs. X</h1>
+          <h1 class="txt-summary">Summary: Latitude vs. Humidity</h1>
           <hr />
           <img
             src="./img/HumidityAcrossCities.png"
